@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+}
+button {
+    width: 100px;
+}
+input {
+    width: 50px;
+    vertical-align: middle;
+}
+input[type=text] {
+    width: 200px;
+}
+button, input {
+    margin: 10px 10px 10px 0;
+}
+.error {
+    color: red;
+    font: bold italic
+}
+.todo {
+    margin: 10px;
+}
+.todo-completed {
+    text-decoration: line-through;
+}
+.todo-title {
+    cursor: pointer;
+    padding: 5px;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+.todo-title:hover {
+    background: lightyellow;
+    border: 1px dashed;
+}
+.icon {
+    width: 25px;
+    vertical-align: middle;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.link-disabled {
+    pointer-events: none;
+}
+.filter-button {
+    width: 100px;
+    margin: 10px;
+}
